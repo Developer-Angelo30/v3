@@ -1,0 +1,18 @@
+[2023-05-26 08:02:28 AM], IP: ::1 , Message: mysqli_sql_exception: Unknown table 'capstone_v1.user' in /opt/lampp/htdocs/demo/apps/model/user.model.php:25
+Stack trace:
+#0 /opt/lampp/htdocs/demo/apps/model/user.model.php(25): mysqli->query('SELECT user.* ,...')
+#1 /opt/lampp/htdocs/demo/apps/view/user.view.php(25): UserModel->loginAccount()
+#2 /opt/lampp/htdocs/demo/apps/view/user.view.php(49): UserView->loginAccounts()
+#3 {main}
+[2023-05-26 08:02:30 AM], IP: ::1 , Message: mysqli_sql_exception: Unknown table 'capstone_v1.user' in /opt/lampp/htdocs/demo/apps/model/user.model.php:25
+Stack trace:
+#0 /opt/lampp/htdocs/demo/apps/model/user.model.php(25): mysqli->query('SELECT user.* ,...')
+#1 /opt/lampp/htdocs/demo/apps/view/user.view.php(25): UserModel->loginAccount()
+#2 /opt/lampp/htdocs/demo/apps/view/user.view.php(49): UserView->loginAccounts()
+#3 {main}
+[2023-05-26 08:02:31 AM], IP: ::1 , Message: mysqli_sql_exception: Unknown table 'capstone_v1.user' in /opt/lampp/htdocs/demo/apps/model/user.model.php:25
+Stack trace:
+#0 /opt/lampp/htdocs/demo/apps/model/user.model.php(25): mysqli->query('SELECT user.* ,...')
+#1 /opt/lampp/htdocs/demo/apps/view/user.view.php(25): UserModel->loginAccount()
+#2 /opt/lampp/htdocs/demo/apps/view/user.view.php(49): UserView->loginAccounts()
+#3 {main}
